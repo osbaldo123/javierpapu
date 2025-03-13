@@ -1,0 +1,144 @@
+body {
+    font-family: fantasy, sans-serif;
+    letter-spacing: 5px;
+    background-image: url("../img/1.gif");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    background: linear-gradient(#2996c2, #85bce0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    background: linear-gradient(#165986, #2793db);
+    color: white;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 35px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+.menu a {
+    color: rgb(12, 9, 9);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.operaciones {
+    background: #babbb8;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    min-width: 300px;
+}
+
+.operaciones h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.izquierda {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.izquierda div {
+    background: #ecf0f1;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.derecha {
+    flex: 1;
+    background: #bdc3c7;
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #d5dadf;
+    color: rgb(17, 17, 17);
+    border-radius: 5px;
+    font-size: 35px;
+    height: 70px;
+}
+
+footer p {
+    margin: 10px;
+}
+
+/* Nuevo código para alinear los bloques en horizontal */
+.contenedor-operaciones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.factorial, .par-impar {
+    background: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+    width: 45%; /* Ajuste para que ocupen espacio horizontalmente */
+    min-width: 250px;
+    padding: 20px;
+}
+
+.factorial h3, .par-impar h3 {
+    color: #2c3e50;
+}
+
+.factorial input, .par-impar input {
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.factorial button, .par-impar button {
+    background: #165986;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.factorial button:hover, .par-impar button:hover {
+    background: #2793db;
+}
